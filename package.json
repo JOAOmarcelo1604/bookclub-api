@@ -1,0 +1,23 @@
+{
+  "name": "bookclub-api",
+  "version": "1.0.0",
+  "description": "API booksclub using node.js and sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "João Marcelo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "sucrase": "^3.35.0"
+  }
+}
